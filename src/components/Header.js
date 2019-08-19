@@ -6,12 +6,12 @@ export default function Header(){
         <div>
             <header className="header-container">
                <div className="menu-container">
-                   <h1>Thomas Brown</h1>
-                   <div>
+                   <h1 id="name">Thomas Brown</h1>
+                   <div className="contact-container">
                        <h1>Contact</h1>
                        <ul>
-                           <li>Email:</li>
-                           <li>Phone:</li>
+                           Email:<li>thomasbrown9101@gmail.com</li>
+                           Phone:<li>408-710-9756</li>
                            <li>LinkedIn</li>
                        </ul>
                    </div>

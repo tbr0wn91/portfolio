@@ -1,15 +1,42 @@
-h1{
-    color: white;
-    margin: 0;
+@media (max-width: 750px){
+    h1{
+        color: white;
+        margin: 0;
+    }
+    
+    #name{
+        margin-left: 20px;
+    }
+    
+    ul{
+        color:white;
+    }
+    
+    li{
+        color:white;
+    }
+    
+    .header-container{
+      
+        width: 100vw;
+        height: 20vh;
+        background-color: black;
+    }
+    
+    .menu-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
 }
 
-.header-container{
-    width: 100vw;
-    height: 20vh;
-    background-color: black;
-}
 
-.menu-container{
-    display: flex;
-    justify-content: space-around;
-}
+
